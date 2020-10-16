@@ -1,0 +1,73 @@
+body{
+	background-color: white;
+	margin:0;
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("halte.jpg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding: 100px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.navbar{
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	margin-top: -40px;
+}
+
+ul {
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #f2e5d9;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #615550;
+	color: white;
+}
+
+img{
+	float: left;
+	margin-right: 15px;
+	width: 300px;
+	height: 300px;
+}
+
+p{
+	font-size: 14px;
+	margin: 30px;
+	font-family: 'Lora';
+}
+
+h2{
+	margin: 30px;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	font-family: 'EB Garamond', serif;
+}
